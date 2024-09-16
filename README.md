@@ -1,4 +1,4 @@
-# AI-Web-Scraper
+# AI Web Scraper
 
 ## Overview
 This project is an AI-powered web scraper built using Python that runs locally on your machine. The application takes a URL as input, scrapes the website's DOM content, and uses a local large language model (LLM) to extract specific information based on a prompt provided by the user. By running the LLM locally, you can avoid the need to purchase tokens from external services.
@@ -6,7 +6,6 @@ This project is an AI-powered web scraper built using Python that runs locally o
 The project handles large amounts of data by breaking it into manageable batches to avoid character limits, ensuring efficient and effective data processing. The technical implementation utilizes tools such as Selenium, BeautifulSoup, LangChain, and more.
 
 ## Demo
-
 https://github.com/user-attachments/assets/66a4a4ac-841b-494d-bc45-f189b8840d0c
 
 
@@ -23,6 +22,7 @@ https://github.com/user-attachments/assets/66a4a4ac-841b-494d-bc45-f189b8840d0c
 - AI-powered extraction of specific information from the scraped content
 - Utilizes **LLaMA 3.1** for advanced AI capabilities
 - Uses tools like Selenium and BeautifulSoup for web scraping
+
 
 ## Technology Stack
 - **Python**: Writing the functionality and application code.
@@ -43,9 +43,9 @@ Before installing and running the project, make sure you have the following:
 - **Ollama** - You can find the download [here](https://ollama.com/download)
 - **LLaMA 3.1** model for Ollama
 
-## Setup and Installation
 
-1. Clone the repository
+## Setup and Installation
+1. Clone the repository:
     ```bash
     git clone https://github.com/k4n4v/AI-Web-Scraper.git
     ```
@@ -77,14 +77,18 @@ Before installing and running the project, make sure you have the following:
 
 6. Update and save `chrome_driver_path` in /scrape.py based on the location of your web driver.
 
+
 ## Usage
 
 1. Active virtual environment
+
 2. Run application:
     ```bash
     streamlit run main.py
     ```
+
 3. Enter a website URL in the text input field and press "Scrape Site" button to scrape! 
+
 
 ## Credits
 This project was inspired by various resources on AI and web scraping. Credit to the [Tech With Tim YouTube video](https://youtu.be/Oo8-nEuDBkk?si=bQZ3l6ODU6rn5Bzo) for providing insights and guidance.
