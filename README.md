@@ -67,7 +67,7 @@ Before installing and running the project, make sure you have the following:
     ```
     - On windows:
     ```bash
-    source venv/bin/activate
+    .\venv\Scripts\activate
     ```
 
 5.  Install project dependencies:
