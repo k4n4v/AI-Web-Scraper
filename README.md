@@ -45,29 +45,17 @@ Before installing and running the project, make sure you have the following:
 
 
 ## Setup and Installation
-1. Clone the repository:
+1. Clone the repository and navigate to the project folder:
     ```bash
     git clone https://github.com/k4n4v/AI-Web-Scraper.git
-    ```
-
-2. Navigate to the project folder:
-    ```bash
     cd AI-Web-Scraper
     ```
 
-3. Create a Python virtual environment:
+2. Create a virtual environment and activate it:
     ```bash
-    python -m venv venv
-    ```
-
-4. Activate the virtual environment:
-    - On macOS/Linux:
-    ```bash
-    source venv/bin/activate
-    ```
-    - On windows:
-    ```bash
-    .\venv\Scripts\activate
+    python3 -m venv venv
+    source venv/bin/activate  # For Linux/MacOS
+    # On Windows, use: venv\Scripts\activate
     ```
 
 5.  Install project dependencies:
